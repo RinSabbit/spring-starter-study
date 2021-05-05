@@ -1,4 +1,4 @@
-package chap03;
+package spring;
 
 public class WrongIdPassWordException extends RuntimeException {
 

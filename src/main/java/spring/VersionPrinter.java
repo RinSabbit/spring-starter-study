@@ -1,11 +1,12 @@
-package chap03;
+package spring;
 
 public class VersionPrinter {
+
     private int majorVersion;
     private int minorVersion;
 
-    public void print(){
-        System.out.printf("version of this program: %d.%d \n\n", majorVersion,minorVersion);
+    public void print() {
+        System.out.printf("version of this program: %d.%d \n\n", majorVersion, minorVersion);
     }
 
     public void setMajorVersion(int majorVersion) {

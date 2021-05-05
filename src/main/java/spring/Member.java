@@ -1,8 +1,9 @@
-package chap03;
+package spring;
 
 import java.time.LocalDateTime;
 
 public class Member {
+
     private Long id;
     private String email;
     private String password;
@@ -16,12 +17,12 @@ public class Member {
         this.registerDateTime = registerDateTime;
     }
 
-    void setId(Long id){
-        this.id = id;
-    }
-
     public Long getId() {
         return id;
+    }
+
+    void setId(Long id) {
+        this.id = id;
     }
 
     public String getEmail() {
@@ -41,7 +42,7 @@ public class Member {
     }
 
     public void changePassword(String oldPassword, String newPassword) {
-        if(!password.equals(oldPassword)){
+        if (!password.equals(oldPassword)) {
             throw new WrongIdPassWordException();
         }
         this.password = newPassword;

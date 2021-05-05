@@ -1,6 +1,6 @@
-package chap03;
+package spring;
 
-public class DuplicateMemberException extends RuntimeException{
+public class DuplicateMemberException extends RuntimeException {
 
     public DuplicateMemberException(String message) {
         super(message);
