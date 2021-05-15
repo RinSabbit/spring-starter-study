@@ -1,7 +1,7 @@
 package chap03to06.main;
 
-import chap03to06.config.AppCtx;
 import chap03to06.spring.Client;
+import config.AppCtx;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
 
@@ -15,5 +15,4 @@ public class Main {
 
         ctx.close();
     }
-
 }

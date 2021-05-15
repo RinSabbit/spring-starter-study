@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    implementation group: 'org.aspectj', name: 'aspectjweaver', version: '1.6.10'
     implementation('org.springframework:spring-context:5.0.2.RELEASE')
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
